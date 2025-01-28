@@ -1,0 +1,11 @@
+{
+    "name": "Go Project Tutorial",
+    "image": "mcr.microsoft.com/vscode/devcontainers/go:latest",
+    "customizations": {
+      "vscode": {
+        "settings": {},
+        "extensions": ["golang.go"]
+      }
+    },
+    "postCreateCommand": "go mod init github.com/myueen/go-project"
+  }
